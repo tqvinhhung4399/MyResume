@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
     <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
     <!-- Owl Carousel Assets -->
     <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
@@ -696,8 +697,284 @@
                 </div>
             </div>
 
-            <div class="row mrgn30">
-                <center><img src="images/gradereport.jpg" /></center>
+            <div class="row mrgn30 col-sm-12 container">
+                <!--<center><img src="images/gradereport.jpg" /></center>-->
+                <table id="table_id" class="display">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Term</th>
+                            <th>Semester</th>
+                            <th>Subject Code</th>
+                            <th>Subject Name</th>
+                            <th>Credit</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>Fall2017</td>
+                            <td>PRO001</td>
+                            <td>Programming with Alice</td>
+                            <td>1</td>
+                            <td><button class="btn btn-info">9.6</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>Spring2018</td>
+                            <td>SSG101</td>
+                            <td>Working in Group Skills</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">7.2</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>Spring2018</td>
+                            <td>CSI101</td>
+                            <td>Connecting to Computer Science</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.3</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>Spring2018</td>
+                            <td>PRF192</td>
+                            <td>Programming Fundamentals</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.3</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>Spring2018</td>
+                            <td>MAE101</td>
+                            <td>Mathematics for Engineering</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.4</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>Spring2018</td>
+                            <td>CEA201</td>
+                            <td>Computer Organization and Architecture</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">6.3</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>2</td>
+                            <td>Summer2018</td>
+                            <td>PRO201</td>
+                            <td>Front-end Web Development</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.7</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>Summer2018</td>
+                            <td>PRO192</td>
+                            <td>Object-Oriented Programming	</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">7.3</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>Summer2018</td>
+                            <td>MAD101</td>
+                            <td>Discrete mathematics</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.3</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>2</td>
+                            <td>Summer2018</td>
+                            <td>LAB101</td>
+                            <td>C Lab</td>
+                            <td>3</td>
+                            <td></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>2</td>
+                            <td>Summer2018</td>
+                            <td>DBI202</td>
+                            <td>Introduction to Databases</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">6.1</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>3</td>
+                            <td>Fall2018</td>
+                            <td>OSG202</td>
+                            <td>Operating Systems</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">7.4</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>3</td>
+                            <td>Fall2018</td>
+                            <td>JPD111</td>
+                            <td>Japanese 1</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">9.8</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>3</td>
+                            <td>Fall2018</td>
+                            <td>PRJ311</td>
+                            <td>Desktop Java Applications</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">9.3</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>3</td>
+                            <td>Fall2018</td>
+                            <td>LAB211</td>
+                            <td>OOP with Java Lab</td>
+                            <td>3</td>
+                            <td></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>3</td>
+                            <td>Fall2018</td>
+                            <td>CSD201</td>
+                            <td>Data Structures and Algorithms</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">7.6</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>4</td>
+                            <td>Spring2019</td>
+                            <td>NWC202</td>
+                            <td>Computer Networking</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">7.6</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>4</td>
+                            <td>Spring2019</td>
+                            <td>PRJ321</td>
+                            <td>Web-Based Java Applications</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.1</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>4</td>
+                            <td>Spring2019</td>
+                            <td>LAB221</td>
+                            <td>Desktop Java Lab</td>
+                            <td>3</td>
+                            <td></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>4</td>
+                            <td>Spring2019</td>
+                            <td>SWE102</td>
+                            <td>Introduction to Software Engineering</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">7.9</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>4</td>
+                            <td>Spring2019</td>
+                            <td>JPD121</td>
+                            <td>Japanese Elementary 2</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">9.4</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>5</td>
+                            <td>Summer2019</td>
+                            <td>PRN292</td>
+                            <td>.NET and C#</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.5</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>5</td>
+                            <td>Summer2019</td>
+                            <td>JPD131</td>
+                            <td>Japanese Elementary 3</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">9.3</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>5</td>
+                            <td>Summer2019</td>
+                            <td>LAB231</td>
+                            <td>Web Java Lab</td>
+                            <td>3</td>
+                            <td></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>5</td>
+                            <td>Summer2019</td>
+                            <td>SWR302</td>
+                            <td>Software Requirement</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                        <tr>
+                            <td>26</td>
+                            <td>5</td>
+                            <td>Summer2019</td>
+                            <td>SWT301</td>
+                            <td>Software Testing</td>
+                            <td>3</td>
+                            <td><button class="btn btn-info">8.1</button></td>
+                            <td><button class="btn btn-success">Passed</button></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <!--/.container-->
@@ -757,5 +1034,11 @@
     <script src="js/jquery.cslider.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
     <script src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#table_id').DataTable();
+        });
+    </script>
 </body>
 </html>
