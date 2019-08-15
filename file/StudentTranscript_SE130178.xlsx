@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><title>
+	FPT University Academic Portal
+</title><link rel="Stylesheet" href="../fu.css" type="text/css" /><link rel="Stylesheet" href="../JavaScript/jquery.css" type="text/css" /><link rel="Stylesheet" href="../JavaScript/jquery-ui.css" type="text/css" /><link rel="Stylesheet" href="../JavaScript/jquery.alerts.css" type="text/css" /><link rel="Stylesheet" href="../JavaScript/colorbox.css" type="text/css" />
+    <script src="../JavaScript/jquery.min.js" type="text/javascript"></script>
+
+    <script src="../JavaScript/jquery_002.js" type="text/javascript"></script>
+
+    <script src="../JavaScript/jquery_003.js" type="text/javascript"></script>
+
+    <script src="../JavaScript/jquery.js" type="text/javascript"></script>
+
+    <script src="../JavaScript/jquery-1.8.3.js" type="text/javascript"></script>
+
+    <script src="../JavaScript/jquery-ui.js" type="text/javascript"></script>
+
+    <script src="../JavaScript/jquery.alerts.js" type="text/javascript"></script>
+    <script src="../JavaScript/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="../JavaScript/jquery.colorbox.js" type="text/javascript"></script>
+    <link rel="Stylesheet" href="../Content/bootstrap.css" type="text/css" /><link rel="Stylesheet" href="../Content/bootstrap.min.css" type="text/css" /><link rel="Stylesheet" href="../Content/bootstrap-theme.min.css" type="text/css" />
+
+    <style type="text/css">
+        .style1 {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body onbeforeunload="bodyUnload();" onmousedown="somefunction()">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-9">
+
+                <h1><span>FPT University Academic Portal</span>
+                </h1>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form name="aspnetForm" method="post" action="./StudentTranscript.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjExODgwMDg5NA9kFgJmD2QWAgIDD2QWCAIBDxYCHgdWaXNpYmxlZxYEAgEPDxYCHgRUZXh0BQ9odW5ndHF2c2UxMzAxNzhkZAIDDw8WAh8BBRwgQ0FNUFVTOiBGUFRVLUjhu5MgQ2jDrSBNaW5oZGQCAw8PFgIfAQVGPGEgaHJlZj0nLi4vU3R1ZGVudC5hc3B4Jz5Ib21lPC9hPiZuYnNwO3wmbmJzcDs8Yj5HcmFkZSBUcmFuc2NyaXB0PC9iPmRkAgUPZBYCAgEPZBYGAgEPDxYCHwEFYDxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1kZWZhdWx0Jz5TRTEzMDE3ODwvc3Bhbj4gLSA8c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtaW5mbyc+U0VfMTNBPC9zcGFuPmRkAgMPFgIeCWlubmVyaHRtbAWQODxUYWJsZSBjbGFzcz0ndGFibGUgdGFibGUtaG92ZXInPjx0aGVhZCBjbGFzcz0ndGhlYWQtaW52ZXJzZSc+PHRyPjx0aCAgc3R5bGU9J3dpZHRoOjEwcHgnPk5vPC90aD48dGggIHN0eWxlPSd3aWR0aDoxNXB4Jz5UZXJtPC90aD48dGggc3R5bGU9J3dpZHRoOjgwcHgnPlNlbWVzdGVyPC90aD48dGggc3R5bGU9J3dpZHRoOjYwcHgnPlN1YmplY3QgQ29kZTwvdGg+PHRoIHN0eWxlPSd3aWR0aDo4MHB4Jz5SZXBsYWNlZCBTdWJqZWN0PC90aD48dGg+U3ViamVjdCBOYW1lPC90aD48dGggIHN0eWxlPSd3aWR0aDoxMHB4Jz5DcmVkaXQ8L3RoPjx0aCBzdHlsZT0nd2lkdGg6MjBweCc+R3JhZGU8L3RoPjx0aCBzdHlsZT0nd2lkdGg6ODBweCc+U3RhdHVzPC90aD48L3RyPjwvdGhlYWQ+ICA8dGJvZHk+PHRyPjx0ZD4xPC90ZD48dGQ+MDwvdGQ+PHRkPkZhbGwyMDE3PC90ZD48dGQ+UFJPMDAxPC90ZD48dGQ+PC90ZD48dGQ+UHJvZ3JhbW1pbmcgd2l0aCBBbGljZTwvdGQ+PHRkPjE8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+OS42PC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MjwvdGQ+PHRkPjA8L3RkPjx0ZD5GYWxsMjAxNzwvdGQ+PHRkPlZPVjExNDwvdGQ+PHRkPjwvdGQ+PHRkPlZvdmluYW0gMV8yPC90ZD48dGQ+MjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz44LjM8L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+PHRyPjx0ZD4zPC90ZD48dGQ+MDwvdGQ+PHRkPlNwcmluZzIwMTg8L3RkPjx0ZD5WT1YxMjQ8L3RkPjx0ZD48L3RkPjx0ZD5Wb3ZpbmFtIDNfNDwvdGQ+PHRkPjI8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+Ni43PC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+NDwvdGQ+PHRkPjA8L3RkPjx0ZD5TdW1tZXIyMDE4PC90ZD48dGQ+Vk9WMTM0PC90ZD48dGQ+PC90ZD48dGQ+Vm92aW5hbSA1XzY8L3RkPjx0ZD4yPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjcuODwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjU8L3RkPjx0ZD4xPC90ZD48dGQ+U3ByaW5nMjAxODwvdGQ+PHRkPlNTRzEwMTwvdGQ+PHRkPjwvdGQ+PHRkPldvcmtpbmcgaW4gR3JvdXAgU2tpbGxzPC90ZD48dGQ+MzwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz43LjI8L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+PHRyPjx0ZD42PC90ZD48dGQ+MTwvdGQ+PHRkPlNwcmluZzIwMTg8L3RkPjx0ZD5DU0kxMDE8L3RkPjx0ZD48L3RkPjx0ZD5Db25uZWN0aW5nIHRvIENvbXB1dGVyIFNjaWVuY2U8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjguMzwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjc8L3RkPjx0ZD4xPC90ZD48dGQ+U3ByaW5nMjAxODwvdGQ+PHRkPlBSRjE5MjwvdGQ+PHRkPjwvdGQ+PHRkPlByb2dyYW1taW5nIEZ1bmRhbWVudGFsczwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+OC4zPC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+ODwvdGQ+PHRkPjE8L3RkPjx0ZD5TcHJpbmcyMDE4PC90ZD48dGQ+TUFFMTAxPC90ZD48dGQ+PC90ZD48dGQ+TWF0aGVtYXRpY3MgZm9yIEVuZ2luZWVyaW5nPC90ZD48dGQ+MzwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz44LjQ8L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+PHRyPjx0ZD45PC90ZD48dGQ+MTwvdGQ+PHRkPlNwcmluZzIwMTg8L3RkPjx0ZD5DRUEyMDE8L3RkPjx0ZD48L3RkPjx0ZD5Db21wdXRlciBPcmdhbml6YXRpb24gYW5kIEFyY2hpdGVjdHVyZTwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+Ni4zPC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MTA8L3RkPjx0ZD4yPC90ZD48dGQ+U3VtbWVyMjAxODwvdGQ+PHRkPlBSTzIwMTwvdGQ+PHRkPjwvdGQ+PHRkPkZyb250LWVuZCBXZWIgRGV2ZWxvcG1lbnQ8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjguNzwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjExPC90ZD48dGQ+MjwvdGQ+PHRkPlN1bW1lcjIwMTg8L3RkPjx0ZD5QUk8xOTI8L3RkPjx0ZD48L3RkPjx0ZD5PYmplY3QtT3JpZW50ZWQgUHJvZ3JhbW1pbmc8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjcuMzwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjEyPC90ZD48dGQ+MjwvdGQ+PHRkPlN1bW1lcjIwMTg8L3RkPjx0ZD5NQUQxMDE8L3RkPjx0ZD48L3RkPjx0ZD5EaXNjcmV0ZSBtYXRoZW1hdGljczwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+OC4zPC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MTM8L3RkPjx0ZD4yPC90ZD48dGQ+U3VtbWVyMjAxODwvdGQ+PHRkPkxBQjEwMTwvdGQ+PHRkPjwvdGQ+PHRkPkMgTGFiPC90ZD48dGQ+MzwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz48L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+PHRyPjx0ZD4xNDwvdGQ+PHRkPjI8L3RkPjx0ZD5TdW1tZXIyMDE4PC90ZD48dGQ+REJJMjAyPC90ZD48dGQ+PC90ZD48dGQ+SW50cm9kdWN0aW9uIHRvIERhdGFiYXNlczwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+Ni4xPC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MTU8L3RkPjx0ZD4zPC90ZD48dGQ+RmFsbDIwMTg8L3RkPjx0ZD5PU0cyMDI8L3RkPjx0ZD48L3RkPjx0ZD5PcGVyYXRpbmcgU3lzdGVtczwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+Ny40PC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MTY8L3RkPjx0ZD4zPC90ZD48dGQ+RmFsbDIwMTg8L3RkPjx0ZD5KUEQxMTE8L3RkPjx0ZD48L3RkPjx0ZD5KYXBhbmVzZSAxPC90ZD48dGQ+MzwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz45Ljg8L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+PHRyPjx0ZD4xNzwvdGQ+PHRkPjM8L3RkPjx0ZD5GYWxsMjAxODwvdGQ+PHRkPlBSSjMxMTwvdGQ+PHRkPjwvdGQ+PHRkPkRlc2t0b3AgSmF2YSBBcHBsaWNhdGlvbnM8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjkuMzwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjE4PC90ZD48dGQ+MzwvdGQ+PHRkPkZhbGwyMDE4PC90ZD48dGQ+TEFCMjExPC90ZD48dGQ+PC90ZD48dGQ+T09QIHdpdGggSmF2YSBMYWI8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjE5PC90ZD48dGQ+MzwvdGQ+PHRkPkZhbGwyMDE4PC90ZD48dGQ+Q1NEMjAxPC90ZD48dGQ+PC90ZD48dGQ+RGF0YSBTdHJ1Y3R1cmVzIGFuZCBBbGdvcml0aG1zPC90ZD48dGQ+MzwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz43LjY8L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+PHRyPjx0ZD4yMDwvdGQ+PHRkPjQ8L3RkPjx0ZD5TcHJpbmcyMDE5PC90ZD48dGQ+TldDMjAyPC90ZD48dGQ+PC90ZD48dGQ+Q29tcHV0ZXIgTmV0d29ya2luZzwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+Ny42PC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MjE8L3RkPjx0ZD40PC90ZD48dGQ+U3ByaW5nMjAxOTwvdGQ+PHRkPlBSSjMyMTwvdGQ+PHRkPjwvdGQ+PHRkPldlYi1CYXNlZCBKYXZhIEFwcGxpY2F0aW9uczwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+OC4xPC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MjI8L3RkPjx0ZD40PC90ZD48dGQ+U3ByaW5nMjAxOTwvdGQ+PHRkPkxBQjIyMTwvdGQ+PHRkPjwvdGQ+PHRkPkRlc2t0b3AgSmF2YSBMYWI8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjIzPC90ZD48dGQ+NDwvdGQ+PHRkPlNwcmluZzIwMTk8L3RkPjx0ZD5TV0UxMDI8L3RkPjx0ZD48L3RkPjx0ZD5JbnRyb2R1Y3Rpb24gdG8gU29mdHdhcmUgRW5naW5lZXJpbmc8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjcuOTwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjI0PC90ZD48dGQ+NDwvdGQ+PHRkPlNwcmluZzIwMTk8L3RkPjx0ZD5KUEQxMjE8L3RkPjx0ZD48L3RkPjx0ZD5KYXBhbmVzZSBFbGVtZW50YXJ5IDI8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjkuNDwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjI1PC90ZD48dGQ+NTwvdGQ+PHRkPlN1bW1lcjIwMTk8L3RkPjx0ZD5QUk4yOTI8L3RkPjx0ZD48L3RkPjx0ZD4uTkVUIGFuZCBDIzwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+OC41PC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MjY8L3RkPjx0ZD41PC90ZD48dGQ+U3VtbWVyMjAxOTwvdGQ+PHRkPkpQRDEzMTwvdGQ+PHRkPjwvdGQ+PHRkPkphcGFuZXNlIEVsZW1lbnRhcnkgMzwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+OS4zPC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+Mjc8L3RkPjx0ZD41PC90ZD48dGQ+U3VtbWVyMjAxOTwvdGQ+PHRkPkxBQjIzMTwvdGQ+PHRkPjwvdGQ+PHRkPldlYiBKYXZhIExhYjwvdGQ+PHRkPjM8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtcHJpbWFyeSc+PC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+Mjg8L3RkPjx0ZD41PC90ZD48dGQ+U3VtbWVyMjAxOTwvdGQ+PHRkPlNXUjMwMjwvdGQ+PHRkPjwvdGQ+PHRkPlNvZnR3YXJlIFJlcXVpcmVtZW50PC90ZD48dGQ+MzwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz44PC9zcGFuPjwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1zdWNjZXNzJz5QYXNzZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+Mjk8L3RkPjx0ZD41PC90ZD48dGQ+U3VtbWVyMjAxOTwvdGQ+PHRkPlNXVDMwMTwvdGQ+PHRkPjwvdGQ+PHRkPlNvZnR3YXJlIFRlc3Rpbmc8L3RkPjx0ZD4zPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXByaW1hcnknPjguMTwvc3Bhbj48L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtc3VjY2Vzcyc+UGFzc2VkPC9zcGFuPjwvdGQ+PC90cj48dHI+PHRkPjMwPC90ZD48dGQ+NjwvdGQ+PHRkPjwvdGQ+PHRkIHN0eWxlPSd3aWR0aDo2MHB4Jz5PSlMyMDE8L3RkPjx0ZD48L3RkPjx0ZD5PbiB0aGUgam9iIHRyYWluaW5nMTwvdGQ+PHRkPjwvdGQ+PHRkPiA8L3RkPjx0ZD48c3BhbiBjbGFzcz0nbGFiZWwgbGFiZWwtZGVmYXVsdCc+Tm90IHN0YXJ0ZWQ8L3NwYW4+PC90ZD48L3RyPjx0cj48dGQ+MzE8L3RkPjx0ZD42PC90ZD48dGQ+PC90ZD48dGQgc3R5bGU9J3dpZHRoOjYwcHgnPlNZQjMwMTwvdGQ+PHRkPjwvdGQ+PHRkPlN0YXJ0IFlvdXIgQnVzaW5lc3M8L3RkPjx0ZD48L3RkPjx0ZD4gPC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLWRlZmF1bHQnPk5vdCBzdGFydGVkPC9zcGFuPjwvdGQ+PC90cj4gIDwvdGJvZHk+PFRhYmxlPg0KZAIFDxYCHwIFugU8VGFibGUgY2xhc3M9J3RhYmxlIHRhYmxlLWhvdmVyJz48dGhlYWQgY2xhc3M9J3RoZWFkLWludmVyc2UnPjx0cj48dGggIHN0eWxlPSd3aWR0aDoxMHB4Jz5ObzwvdGg+PHRoICBzdHlsZT0nd2lkdGg6NDBweCc+U2VtZXN0ZXI8L3RoPjx0aCBzdHlsZT0nd2lkdGg6NDBweCc+U3ViamVjdENvZGU8L3RoPjx0aD5TdWJqZWN0TmFtZTwvdGg+PHRoPkNyZWRpdDwvdGg+PHRoIHN0eWxlPSd3aWR0aDoyMHB4Jz5HcmFkZTwvdGg+PHRoIHN0eWxlPSd3aWR0aDo1NXB4Jz5TdGF0dXM8L3RoPjwvdHI+PC90aGVhZD4gIDx0Ym9keT48dHI+PHRkPjE8L3RkPjx0ZD5GYWxsMjAxNzwvdGQ+PHRkPkVOVDUwMzwvdGQ+PHRkPlN1bW1pdCAyPC90ZD48dGQ+MDwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz43LjI8L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+PHRyPjx0ZD4yPC90ZD48dGQ+RmFsbDIwMTc8L3RkPjx0ZD5HRFFQPC90ZD48dGQ+TWlsaXRhcnkgRWR1Y2F0aW9uPC90ZD48dGQ+MzwvdGQ+PHRkPjxzcGFuIGNsYXNzPSdsYWJlbCBsYWJlbC1wcmltYXJ5Jz43Ljk8L3NwYW4+PC90ZD48dGQ+PHNwYW4gY2xhc3M9J2xhYmVsIGxhYmVsLXN1Y2Nlc3MnPlBhc3NlZDwvc3Bhbj48L3RkPjwvdHI+ICA8L3Rib2R5PjxUYWJsZT4NCmQCCQ8WAh8AZ2RkNAUWoH3oTFRypPXMmFSanwZW+qcS0z8zysxmjuCkN0s=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4DA27C07" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAROHukJyqURt5YvexoOSWVLnWdsB9rlNEBkhSHxx91PtvjtxHNmdZFmtOVx202NsUGibNO/9NdS0yOHcZg6YLufkhtjNqAnNPgAjaPreQzX8MBbaBwKLTKzVlTqTleJMeU=" />
+</div>
+                    <div id="ctl00_divUser" style="float: right; margin-right: 16px;">
+                        <a href="?view=user">
+                            <span id="ctl00_lblLogIn" class="label label-success">hungtqvse130178</span></a> | <a href="?logout=true" class="label label-success">logout</a> |
+                <span id="ctl00_lblCampusName" class="label label-success"> CAMPUS: FPTU-Hồ Chí Minh</span>
+                    </div>
+                    <ol class="breadcrumb">
+                        <li>
+                            <span id="ctl00_lblNavigation"><a href='../Student.aspx'>Home</a>&nbsp;|&nbsp;<b>Grade Transcript</b></span></li>
+                    </ol>
+
+                    <table>
+                        <tr style="border-bottom: 0 none">
+                            <td>
+                                <div>
+                                    
+
+    
+
+        <h2>Grade report for transcipt  
+        <span id="ctl00_mainContent_lblRollNumber"><span class='label label-default'>SE130178</span> - <span class='label label-info'>SE_13A</span></span></h2>
+
+        <br />
+        <div id="Grid">
+
+            <table>
+                <tr>
+                    <td valign='top'>
+                        <div id="ctl00_mainContent_divGrade"><Table class='table table-hover'><thead class='thead-inverse'><tr><th  style='width:10px'>No</th><th  style='width:15px'>Term</th><th style='width:80px'>Semester</th><th style='width:60px'>Subject Code</th><th style='width:80px'>Replaced Subject</th><th>Subject Name</th><th  style='width:10px'>Credit</th><th style='width:20px'>Grade</th><th style='width:80px'>Status</th></tr></thead>  <tbody><tr><td>1</td><td>0</td><td>Fall2017</td><td>PRO001</td><td></td><td>Programming with Alice</td><td>1</td><td><span class='label label-primary'>9.6</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>2</td><td>0</td><td>Fall2017</td><td>VOV114</td><td></td><td>Vovinam 1_2</td><td>2</td><td><span class='label label-primary'>8.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>3</td><td>0</td><td>Spring2018</td><td>VOV124</td><td></td><td>Vovinam 3_4</td><td>2</td><td><span class='label label-primary'>6.7</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>4</td><td>0</td><td>Summer2018</td><td>VOV134</td><td></td><td>Vovinam 5_6</td><td>2</td><td><span class='label label-primary'>7.8</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>5</td><td>1</td><td>Spring2018</td><td>SSG101</td><td></td><td>Working in Group Skills</td><td>3</td><td><span class='label label-primary'>7.2</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>6</td><td>1</td><td>Spring2018</td><td>CSI101</td><td></td><td>Connecting to Computer Science</td><td>3</td><td><span class='label label-primary'>8.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>7</td><td>1</td><td>Spring2018</td><td>PRF192</td><td></td><td>Programming Fundamentals</td><td>3</td><td><span class='label label-primary'>8.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>8</td><td>1</td><td>Spring2018</td><td>MAE101</td><td></td><td>Mathematics for Engineering</td><td>3</td><td><span class='label label-primary'>8.4</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>9</td><td>1</td><td>Spring2018</td><td>CEA201</td><td></td><td>Computer Organization and Architecture</td><td>3</td><td><span class='label label-primary'>6.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>10</td><td>2</td><td>Summer2018</td><td>PRO201</td><td></td><td>Front-end Web Development</td><td>3</td><td><span class='label label-primary'>8.7</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>11</td><td>2</td><td>Summer2018</td><td>PRO192</td><td></td><td>Object-Oriented Programming</td><td>3</td><td><span class='label label-primary'>7.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>12</td><td>2</td><td>Summer2018</td><td>MAD101</td><td></td><td>Discrete mathematics</td><td>3</td><td><span class='label label-primary'>8.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>13</td><td>2</td><td>Summer2018</td><td>LAB101</td><td></td><td>C Lab</td><td>3</td><td><span class='label label-primary'></span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>14</td><td>2</td><td>Summer2018</td><td>DBI202</td><td></td><td>Introduction to Databases</td><td>3</td><td><span class='label label-primary'>6.1</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>15</td><td>3</td><td>Fall2018</td><td>OSG202</td><td></td><td>Operating Systems</td><td>3</td><td><span class='label label-primary'>7.4</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>16</td><td>3</td><td>Fall2018</td><td>JPD111</td><td></td><td>Japanese 1</td><td>3</td><td><span class='label label-primary'>9.8</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>17</td><td>3</td><td>Fall2018</td><td>PRJ311</td><td></td><td>Desktop Java Applications</td><td>3</td><td><span class='label label-primary'>9.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>18</td><td>3</td><td>Fall2018</td><td>LAB211</td><td></td><td>OOP with Java Lab</td><td>3</td><td><span class='label label-primary'></span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>19</td><td>3</td><td>Fall2018</td><td>CSD201</td><td></td><td>Data Structures and Algorithms</td><td>3</td><td><span class='label label-primary'>7.6</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>20</td><td>4</td><td>Spring2019</td><td>NWC202</td><td></td><td>Computer Networking</td><td>3</td><td><span class='label label-primary'>7.6</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>21</td><td>4</td><td>Spring2019</td><td>PRJ321</td><td></td><td>Web-Based Java Applications</td><td>3</td><td><span class='label label-primary'>8.1</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>22</td><td>4</td><td>Spring2019</td><td>LAB221</td><td></td><td>Desktop Java Lab</td><td>3</td><td><span class='label label-primary'></span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>23</td><td>4</td><td>Spring2019</td><td>SWE102</td><td></td><td>Introduction to Software Engineering</td><td>3</td><td><span class='label label-primary'>7.9</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>24</td><td>4</td><td>Spring2019</td><td>JPD121</td><td></td><td>Japanese Elementary 2</td><td>3</td><td><span class='label label-primary'>9.4</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>25</td><td>5</td><td>Summer2019</td><td>PRN292</td><td></td><td>.NET and C#</td><td>3</td><td><span class='label label-primary'>8.5</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>26</td><td>5</td><td>Summer2019</td><td>JPD131</td><td></td><td>Japanese Elementary 3</td><td>3</td><td><span class='label label-primary'>9.3</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>27</td><td>5</td><td>Summer2019</td><td>LAB231</td><td></td><td>Web Java Lab</td><td>3</td><td><span class='label label-primary'></span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>28</td><td>5</td><td>Summer2019</td><td>SWR302</td><td></td><td>Software Requirement</td><td>3</td><td><span class='label label-primary'>8</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>29</td><td>5</td><td>Summer2019</td><td>SWT301</td><td></td><td>Software Testing</td><td>3</td><td><span class='label label-primary'>8.1</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>30</td><td>6</td><td></td><td style='width:60px'>OJS201</td><td></td><td>On the job training1</td><td></td><td> </td><td><span class='label label-default'>Not started</span></td></tr><tr><td>31</td><td>6</td><td></td><td style='width:60px'>SYB301</td><td></td><td>Start Your Business</td><td></td><td> </td><td><span class='label label-default'>Not started</span></td></tr>  </tbody><Table>
+</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign='top' align="left">
+                        <h2><span class="label label-primary">Những môn ngoài khung chương trình </span></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign='top'>
+                        <div id="ctl00_mainContent_divNotGrade"><Table class='table table-hover'><thead class='thead-inverse'><tr><th  style='width:10px'>No</th><th  style='width:40px'>Semester</th><th style='width:40px'>SubjectCode</th><th>SubjectName</th><th>Credit</th><th style='width:20px'>Grade</th><th style='width:55px'>Status</th></tr></thead>  <tbody><tr><td>1</td><td>Fall2017</td><td>ENT503</td><td>Summit 2</td><td>0</td><td><span class='label label-primary'>7.2</span></td><td><span class='label label-success'>Passed</span></td></tr><tr><td>2</td><td>Fall2017</td><td>GDQP</td><td>Military Education</td><td>3</td><td><span class='label label-primary'>7.9</span></td><td><span class='label label-success'>Passed</span></td></tr>  </tbody><Table>
+</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <input type="hidden" name="ctl00$mainContent$hfGridHtml" id="ctl00_mainContent_hfGridHtml" /><input type="submit" name="ctl00$mainContent$btnExport" value="Export To Excel" id="ctl00_mainContent_btnExport" /><input type="hidden" name="ctl00$mainContent$hdError" id="ctl00_mainContent_hdError" />
+
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr style="border-bottom: 0 none">
+                            <td>
+                                <br />
+
+                                <table width="100%" style="border: 1px solid transparent;" id="cssTable">
+
+                                    <tr>
+                                        <td>
+                                            
+
+                                            <div id="ctl00_divSupporthcm">
+                                                <br />
+
+                                                <b>Mọi góp ý, thắc mắc xin liên hệ: </b><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13.333333969116211px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Phòng TC&QLDT FU-HCM</span>: Email: <a href="mailto:qldthcm@fpt.edu.vn">qldthcm@fpt.edu.vn</a>.
+        Điện thoại: <span class="style1"
+            style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13.333333969116211px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"> 0906877794, 09081823285 </span>
+                                                <br />
+                                                <span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13.333333969116211px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Phòng CTSV</span> Email :  <a href="mailto:ctsv.hcm@fpt.edu.vn">ctsv.hcm@fpt.edu.vn</a>
+                                                Điện thoại: <span class="style1"
+                                                    style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13.333333969116211px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">0907077706, 0981823284 </span>
+
+                                            </div>
+
+                                            
+
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align: center">
+                                                © Powered by <a href="http://fpt.edu.vn" target="_blank">FPT University</a>&nbsp;|&nbsp;
+        <a href="http://cms.fpt.edu.vn/" target="_blank">CMS</a>&nbsp;|&nbsp; <a href="http://library.fpt.edu.vn" target="_blank">library</a>&nbsp;|&nbsp; <a href="http://library.books24x7.com" target="_blank">books24x7</a>
+                                            <span id="ctl00_lblHelpdesk"></span></p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            //Examples of how to assign the Colorbox event to elements
+
+            $(".group1").colorbox({ rel: 'group1' });
+            $(".group2").colorbox({ rel: 'group2', transition: "fade" });
+            $(".group3").colorbox({ rel: 'group3', transition: "none", width: "75%", height: "75%" });
+            $(".group4").colorbox({ rel: 'group4', slideshow: true });
+            $(".ajax").colorbox();
+            $(".youtube").colorbox({ iframe: true, innerWidth: 640, innerHeight: 390 });
+            $(".vimeo").colorbox({ iframe: true, innerWidth: 500, innerHeight: 409 });
+            $(".iframe").colorbox({ iframe: true, width: "80%", height: "80%" });
+            $(".inline").colorbox({ inline: true, width: "50%" });
+            $(".callbacks").colorbox({
+                onOpen: function () { alert('onOpen: colorbox is about to open'); },
+                onLoad: function () { alert('onLoad: colorbox has started to load the targeted content'); },
+                onComplete: function () { alert('onComplete: colorbox has displayed the loaded content'); },
+                onCleanup: function () { alert('onCleanup: colorbox has begun the close process'); },
+                onClosed: function () { alert('onClosed: colorbox has completely closed'); }
+            });
+
+            $('.non-retina').colorbox({ rel: 'group5', transition: 'none' })
+            $('.retina').colorbox({ rel: 'group5', transition: 'none', retinaImage: true, retinaUrl: true });
+
+            //Example of preserving a JavaScript event for inline calls.
+            $("#click").click(function () {
+                $('#click').css({ "background-color": "#f00", "color": "#fff", "cursor": "inherit" }).text("Open this window again and this message will still be here.");
+                return false;
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-10421012-13']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+    <script type="text/javascript">
+        var isClose = false;
+
+        //this code will handle the F5 or Ctrl+F5 key
+        //need to handle more cases like ctrl+R whose codes are not listed here
+        document.onkeydown = checkKeycode;
+        function checkKeycode(e) {
+            var keycode;
+            if (window.event)
+                keycode = window.event.keyCode;
+            else if (e)
+                keycode = e.which;
+            if (keycode == 116) {
+                isClose = true;
+            }
+        }
+        function somefunction() {
+            isClose = true;
+        }
+
+        //<![CDATA[
+
+        function bodyUnload() {
+
+            if (!isClose) {
+                var request = GetRequest();
+                request.open("GET", "LogOut.aspx", true);
+                request.send();
+            }
+        }
+        function GetRequest() {
+            var request = null;
+            if (window.XMLHttpRequest) {
+                //incase of IE7,FF, Opera and Safari browser
+                request = new XMLHttpRequest();
+            }
+            else {
+                //for old browser like IE 6.x and IE 5.x
+                request = new ActiveXObject('MSXML2.XMLHTTP.3.0');
+            }
+            return request;
+        }
+        //]]>
+    </script>
+
+</body>
+</html>
